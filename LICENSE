@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Vortex Research
+
+The data in this repository (data/coa_reports.csv and data/coa_reports.json) is licensed under the
+Creative Commons Attribution 4.0 International License. You may share and adapt it for any purpose,
+provided you give appropriate credit ("Vortex Research lot report dataset", linking to
+https://vortexresearch.net/coa/), indicate if changes were made, and do not suggest endorsement.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The scripts in scripts/ are released under the MIT License: permission is hereby granted, free of charge,
+to any person obtaining a copy of this software, to deal in the software without restriction, subject to
+including this notice. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Laboratory names and report contents belong to their respective laboratories. Research use only; not for
+human or veterinary use.
