@@ -68,7 +68,7 @@ p,li{color:var(--body)}a{color:var(--purple)}code{font-family:"JetBrains Mono",C
 .stat b{display:block;font-size:22px;color:var(--ink)}.stat span{font-size:13px;color:var(--muted)}
 .wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
 table{border-collapse:collapse;width:100%;font-size:14px;min-width:820px}th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
-th{background:var(--wash);font-weight:600}td.n{font-variant-numeric:tabular-nums}tr:last-child td{border-bottom:0}
+th{background:var(--wash);font:600 14px/1.6 inherit}td.n{font-variant-numeric:tabular-nums}tr:last-child td{border-bottom:0}
 .note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
 </style>
 </head>
@@ -96,6 +96,8 @@ ${tr}
 <ul>
 <li><a href="https://raw.githubusercontent.com/vrtx-research/coa-dataset/main/data/coa_reports.csv">coa_reports.csv</a>: one row per report, assays separated by <code>; </code></li>
 <li><a href="https://raw.githubusercontent.com/vrtx-research/coa-dataset/main/data/coa_reports.json">coa_reports.json</a>: the same data with a <code>meta</code> block</li>
+<li>Companion identity data (sequence, formula, mass): <a href="https://vrtx-research.github.io/peptide-identity-reference/">peptide identity reference</a></li>
+<li>Articles built on this data: <a href="https://vortexresearchjournal.wordpress.com/">Vortex Research Journal</a></li>
 <li>Source, field definitions and build scripts: <a href="${repo}">github.com/vrtx-research/coa-dataset</a></li>
 </ul>
 

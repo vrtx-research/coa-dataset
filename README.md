@@ -6,6 +6,8 @@ Browse it as a web page at [vrtx-research.github.io/coa-dataset](https://vrtx-re
 
 > **Research use only.** Vortex Research materials are sold for in-vitro laboratory research by qualified researchers. Not for human or veterinary use. Not a drug, dietary supplement or cosmetic. Statements have not been evaluated by the FDA.
 
+Identity data (sequence, formula, mass, CID, CAS) for the same compounds is in the companion [peptide identity reference](https://github.com/vrtx-research/peptide-identity-reference). Articles built on this dataset are in the [Vortex Research Journal](https://vortexresearchjournal.wordpress.com/).
+
 ## Files
 
 | File | What it holds |
