@@ -68,7 +68,7 @@ p,li{color:var(--body)}a{color:var(--purple)}code{font-family:"JetBrains Mono",C
 .stat b{display:block;font-size:22px;color:var(--ink)}.stat span{font-size:13px;color:var(--muted)}
 .wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
 table{border-collapse:collapse;width:100%;font-size:14px;min-width:820px}th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
-th{background:var(--wash);font:600 14px/1.6 inherit}td.n{font-variant-numeric:tabular-nums}tr:last-child td{border-bottom:0}
+th{background:var(--wash);font:600 14px/1.6 Manrope,system-ui,Arial,sans-serif}td.n{font-variant-numeric:tabular-nums}tr:last-child td{border-bottom:0}
 .note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
 </style>
 </head>
