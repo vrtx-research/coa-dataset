@@ -1,0 +1,13 @@
+{
+  "title": "Vortex Research lot report dataset",
+  "upload_type": "dataset",
+  "description": "<p>Machine-readable copies of third-party laboratory reports for Vortex Research peptide lots. Each row is one report: the issuing lab, test date, HPLC purity, measured net content, the assays listed, and a link to verify the report on the lab's own portal. The lab's record is authoritative; each report applies only to the lot it names.</p><p>Research use only. Vortex Research materials are sold for in-vitro laboratory research by qualified researchers. Not for human or veterinary use.</p>",
+  "creators": [{"name": "Vortex Research"}],
+  "license": "cc-by-4.0",
+  "keywords": ["certificate of analysis", "HPLC purity", "peptide", "net content", "lot report", "analytical chemistry"],
+  "related_identifiers": [
+    {"identifier": "https://vortexresearch.net/coa/", "relation": "isDerivedFrom", "resource_type": "other"},
+    {"identifier": "https://vrtx-research.github.io/coa-dataset/", "relation": "isDocumentedBy", "resource_type": "other"}
+  ],
+  "access_right": "open"
+}
