@@ -1,5 +1,8 @@
 # Vortex Research lot report dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23578844.svg)](https://doi.org/10.5281/zenodo.23578844)
+
+
 Machine-readable copies of the third-party laboratory reports that [Vortex Research](https://vortexresearch.net/) publishes for its research peptide lots. Each row is one report: the lab, the test date, HPLC purity, measured net content, the assays run, and a link to verify the report on the lab's own portal.
 
 Browse it as a web page at [vrtx-research.github.io/coa-dataset](https://vrtx-research.github.io/coa-dataset/). The human-readable version, with report images and PDFs, is the [lab report page](https://vortexresearch.net/coa/). Background on reading these documents is in the [research library](https://vortexresearch.net/blog/), for example [How to read a peptide COA](https://vortexresearch.net/blog/how-to-read-a-peptide-coa/) and [HPLC peptide purity](https://vortexresearch.net/blog/hplc-peptide-purity/).
@@ -63,3 +66,7 @@ This repository lists a subset of the compounds on the [lab report page](https:/
 ## License
 
 Data: [CC BY 4.0](LICENSE). Credit "Vortex Research lot report dataset" with a link to https://vortexresearch.net/coa/.
+
+## Cite
+
+Vortex Research (2026). *Vortex Research lot report dataset*. Zenodo. https://doi.org/10.5281/zenodo.23578844 (all versions; each release also has its own version DOI, v1.0.0 = 10.5281/zenodo.23578845).

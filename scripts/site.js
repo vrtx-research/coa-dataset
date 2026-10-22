@@ -35,7 +35,8 @@ const ld = {
   name: meta.name,
   description: 'Machine-readable copies of third-party laboratory reports for Vortex Research peptide lots: lab, test date, HPLC purity, measured net content, assays run, and a link to verify each report on the issuing lab\'s portal.',
   url: pages,
-  sameAs: repo,
+  sameAs: [repo, 'https://doi.org/10.5281/zenodo.23578844'],
+  identifier: 'https://doi.org/10.5281/zenodo.23578844',
   license: 'https://creativecommons.org/licenses/by/4.0/',
   isAccessibleForFree: true,
   creator: { '@type': 'Organization', name: 'Vortex Research', url: 'https://vortexresearch.net/' },
@@ -111,7 +112,8 @@ ${tr}
 <p>Open the row's verify link and enter the COA number and access code from the CSV if asked. Compare the lot, date, purity and net content. If anything differs, the lab portal is the record. Please <a href="${repo}/issues">open an issue</a> so the row can be corrected.</p>
 
 <h2>Cite</h2>
-<p><code>Vortex Research (${meta.generated.slice(0, 4)}). Peptide lot report dataset [Data set]. ${pages}</code></p>
+<p><code>Vortex Research (${meta.generated.slice(0, 4)}). Vortex Research lot report dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23578844</code></p>
+<p>Archived on <a href="https://doi.org/10.5281/zenodo.23578844">Zenodo (DOI 10.5281/zenodo.23578844)</a>; each release has its own version DOI.</p>
 
 <p class="note">Research use only. Vortex Research materials are sold for in-vitro laboratory research by qualified researchers. Not for human or veterinary use. Not a drug, dietary supplement or cosmetic. Statements have not been evaluated by the FDA. This repository lists a subset of the compounds on the lab report page, which is the complete set; each report applies only to the lot it names.</p>
 </main>
