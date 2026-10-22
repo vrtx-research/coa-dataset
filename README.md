@@ -2,7 +2,7 @@
 
 Machine-readable copies of the third-party laboratory reports that [Vortex Research](https://vortexresearch.net/) publishes for its research peptide lots. Each row is one report: the lab, the test date, HPLC purity, measured net content, the assays run, and a link to verify the report on the lab's own portal.
 
-The human-readable version, with report images and PDFs, is the [lab report page](https://vortexresearch.net/coa/). Background on reading these documents is in the [research library](https://vortexresearch.net/blog/), for example [How to read a peptide COA](https://vortexresearch.net/blog/how-to-read-a-peptide-coa/) and [HPLC peptide purity](https://vortexresearch.net/blog/hplc-peptide-purity/).
+Browse it as a web page at [vrtx-research.github.io/coa-dataset](https://vrtx-research.github.io/coa-dataset/). The human-readable version, with report images and PDFs, is the [lab report page](https://vortexresearch.net/coa/). Background on reading these documents is in the [research library](https://vortexresearch.net/blog/), for example [How to read a peptide COA](https://vortexresearch.net/blog/how-to-read-a-peptide-coa/) and [HPLC peptide purity](https://vortexresearch.net/blog/hplc-peptide-purity/).
 
 > **Research use only.** Vortex Research materials are sold for in-vitro laboratory research by qualified researchers. Not for human or veterinary use. Not a drug, dietary supplement or cosmetic. Statements have not been evaluated by the FDA.
 
@@ -13,6 +13,7 @@ The human-readable version, with report images and PDFs, is the [lab report page
 | [`data/coa_reports.csv`](data/coa_reports.csv) | One row per report, spreadsheet-friendly. Assays are `; `-separated. |
 | [`data/coa_reports.json`](data/coa_reports.json) | The same data with a `meta` block and assays as arrays. |
 | [`scripts/build.js`](scripts/build.js) | Rebuilds both files from the live lab report page (Node 18+, no dependencies). |
+| [`scripts/site.js`](scripts/site.js) | Rebuilds the GitHub Pages view in `docs/` from the JSON. |
 | [`scripts/readme.js`](scripts/readme.js) | Rebuilds the table below from the JSON. |
 
 ## Current reports (2026-10-22)
