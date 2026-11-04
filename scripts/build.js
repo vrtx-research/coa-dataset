@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const INCLUDE = ['MOTS-C', 'GHK-Cu', 'BPC-157 + TB-500', '5-Amino-1MQ', 'KPV', 'NAD+', 'Selank', 'Semax'];
+const INCLUDE = ['MOTS-C', 'GHK-Cu', 'BPC-157 + TB-500', 'CJC-1295 no DAC + Ipamorelin', '5-Amino-1MQ', 'KPV', 'MT-2 (Melanotan II)', 'NAD+', 'Selank', 'Semax', 'Tesamorelin'];
 const LABS = {
   ils: { name: 'ILS Laboratories', location: 'San Diego, CA, USA' },
   freedom: { name: 'Freedom Diagnostics', location: null },
@@ -34,7 +34,7 @@ async function main() {
       rows.push({
         compound: title === 'MOTS-C' ? 'MOTS-c' : title,
         size_label: v.label.replace(/\s*·.*$/, ''),
-        lot: v.lot,
+        lot: v.lot.replace(' (sample label)', ''),
         report_type: v.vortex ? 'Tested for Vortex Research' : 'Partner-facility report (supplier lot)',
         lab: lab.name,
         lab_location: lab.location,
