@@ -2,10 +2,10 @@
   "meta": {
     "name": "Vortex Research lot report dataset",
     "source": "https://vortexresearch.net/coa/",
-    "generated": "2026-10-22",
+    "generated": "2026-11-04",
     "license": "CC BY 4.0",
     "notice": "Research-use-only materials. Not for human or veterinary use. Figures are copied from third-party laboratory reports; the linked report is the authoritative record.",
-    "count": 9
+    "count": 12
   },
   "reports": [
     {
@@ -61,6 +61,33 @@
         "Contaminant screen"
       ],
       "product_page": "https://vortexresearch.net/product/bpc-157/"
+    },
+    {
+      "compound": "CJC-1295 no DAC + Ipamorelin",
+      "size_label": "5 / 5 mg",
+      "lot": "PS07-CJIP10",
+      "report_type": "Partner-facility report (supplier lot)",
+      "lab": "ILS Laboratories",
+      "lab_location": "San Diego, CA, USA",
+      "test_date": "2026-08-11",
+      "purity_hplc_pct": 99.46,
+      "net_content_mg": 10.38,
+      "net_content_split": "CJC-1295 5.19 mg · Ipamorelin 5.19 mg",
+      "coa_number": "COA-2026-BZO16K",
+      "access_code": "EEC2GTKP",
+      "verify_url": "https://portal.ils-lab.com/verify/F8wPAenw6iwz3lnX",
+      "report_pdf": null,
+      "report_image": "https://vortexresearch.net/wp-content/uploads/2026/08/CJC-1295_No_DAC_Ipamorelin_PS07-CJIP10_Summary.png",
+      "assays": [
+        "Purity (HPLC)",
+        "Identity (HPLC)",
+        "Net content",
+        "Heavy metals (ICP-MS)",
+        "Sterility (PCR)",
+        "Endotoxin (USP <85>)",
+        "Contaminant screen"
+      ],
+      "product_page": "https://vortexresearch.net/product/cjc-ipa/"
     },
     {
       "compound": "GHK-Cu",
@@ -166,6 +193,33 @@
       "product_page": "https://vortexresearch.net/product/mots-c/"
     },
     {
+      "compound": "MT-2 (Melanotan II)",
+      "size_label": "10 mg",
+      "lot": "PS07-MT210",
+      "report_type": "Partner-facility report (supplier lot)",
+      "lab": "ILS Laboratories",
+      "lab_location": "San Diego, CA, USA",
+      "test_date": "2026-08-11",
+      "purity_hplc_pct": 99.68,
+      "net_content_mg": 10.6,
+      "net_content_split": null,
+      "coa_number": "COA-2026-2VPSU4",
+      "access_code": "BXPYLQ35",
+      "verify_url": "https://portal.ils-lab.com/verify/rcjHSn8YxhjRy6MP",
+      "report_pdf": null,
+      "report_image": "https://vortexresearch.net/wp-content/uploads/2026/08/Melanotan_II_PS07-MT210_Summary.png",
+      "assays": [
+        "Purity (HPLC)",
+        "Identity (HPLC)",
+        "Net content",
+        "Heavy metals (ICP-MS)",
+        "Sterility (PCR)",
+        "Endotoxin (USP <85>)",
+        "Contaminant screen"
+      ],
+      "product_page": "https://vortexresearch.net/product/melanotan-ii-10mg/"
+    },
+    {
       "compound": "NAD+",
       "size_label": "500 mg",
       "lot": "PS07-NAD500",
@@ -245,6 +299,33 @@
         "Contaminant screen"
       ],
       "product_page": "https://vortexresearch.net/product/semax/"
+    },
+    {
+      "compound": "Tesamorelin",
+      "size_label": "10 mg",
+      "lot": "PS07-TSM10",
+      "report_type": "Partner-facility report (supplier lot)",
+      "lab": "ILS Laboratories",
+      "lab_location": "San Diego, CA, USA",
+      "test_date": "2026-08-11",
+      "purity_hplc_pct": 98.04,
+      "net_content_mg": 10.32,
+      "net_content_split": null,
+      "coa_number": "COA-2026-TM0-AZ",
+      "access_code": "WBPXPJTA",
+      "verify_url": "https://portal.ils-lab.com/verify/-KLFm_ycfRo1GUJl",
+      "report_pdf": null,
+      "report_image": "https://vortexresearch.net/wp-content/uploads/2026/08/TSM_PS07-TSM10_Summary.png",
+      "assays": [
+        "Purity (HPLC)",
+        "Identity (HPLC)",
+        "Net content",
+        "Heavy metals (ICP-MS)",
+        "Sterility (PCR)",
+        "Endotoxin (USP <85>)",
+        "Contaminant screen"
+      ],
+      "product_page": "https://vortexresearch.net/product/tesamorelin/"
     }
   ]
 }
